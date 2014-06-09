@@ -1,0 +1,95 @@
+/*Estructura*/
+	body {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;}		
+	.container{ background-color:#fff;width:100%;min-width: 550px; width: 88%; max-width: 1280px; margin:auto; border-right: 1px solid #ccc; border-left: 1px solid #ccc;}
+	
+	.top { width:100%; background-color:#eee; height:49px; border-bottom: 1px solid #e7e4e4; margin-bottom:20px;}
+	.top .titulo{font-size: 1.5em;line-height: 47px;padding-left: 10px;margin-left: 10px;padding-bottom: 10px;margin-right: 15px;color: #434343;}
+	
+	ul.cupones{ margin:0 0 0 10px; padding:0; list-style:none;}
+	ul.cupones li {display:inline-block;}	
+
+/*Cupon
+	div.cupon{ width:450px; height:auto; background-color:#FFF; border:1px #000000 solid; margin:auto; }
+	div.cupon div.valor{ width:155px; height:143px; text-align:center; font-size:30px; font-weight:bold; color:#000; float:left; position:relative;; padding-bottom:10px;}
+	div.cupon div.valor .fondo {width:155px; height:143px; position:absolute; top:0; left:0; z-index:1;}
+	div.cupon div.valor .texto{ position: absolute;top:40px; left:0; z-index:10; width:100% }
+	.print{ font-size:14px; margin-top:12px;}
+	div.logo{ width:280px; height:50px; float:right; text-align:right; margin:10px 10px 0 0;}
+	.clearfix{ clear:both;}
+	.legales { float:right, margin:10px 10px 0 0; font-family:Arial, Helvetica, sans-serif; font-size:9px; text-align:right; margin:0 10px 0 0;}
+	.footer{ border-top:#666 1px dotted;}
+	.footer div.nombre{float:left; font-size:12px; margin:10px;}
+	.footer div.codigo{ float:right; margin:10px; width:222px; height:60px; background-color:#000;}
+*/
+/* new cupon */
+div.cupon{ width:450px; height:auto; background-color:#FFF; border:1px #000000 solid; margin:auto; margin-top:10%}
+div.cupon div.valor{ width:155px; height:143px; text-align:center; font-size:30px; font-weight:bold; color:#000; float:left; position:relative;; padding-bottom:10px;}
+div.cupon div.valor .fondo {width:155px; height:143px; position:absolute; top:0; left:0; z-index:1;}
+div.cupon div.valor .texto{ position: absolute;top:40px; left:0; z-index:10; width:100%}
+.print{ font-size:14px; margin-top:12px;}
+div.logo{ width:280px; height:50px; float:right; text-align:right; margin:10px 10px 0 0;}
+.clearfix{ clear:both;}
+.datos { float:right; margin:10px 10px 0 0; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:right; margin:0 10px 0 0; padding-bottom:10px}
+.datos div.codigo{ float:right; margin:10px 0; width:222px; height:60px; background-color:#000;}
+
+.legales { padding:10px; font-family:Arial, Helvetica, sans-serif; font-size:9px; text-align:center; margin:0 10px 0 0;}
+.footer{ border-top:#666 1px dotted;}
+.footer div.nombre{float:left; font-size:12px; margin:10px;}
+
+	
+/*Busqueda*/
+	.banner-cupones {margin: 0 auto; width: 70%;}
+	.banner-cupones img {width: 100%;}
+	.redeem {background-color: #9d1f64; height: 400px; padding:0 10%; color: #FFF; font-size: 18px;}
+	.redeem p {color: white;font-size: 12px;clear: both;padding-top: 20px;}
+	.redeem p a:link, .redeem p a:visited{color: #FFF;}
+	.redeem input.redeem-coupon {width: 100%; background: #5E768D; background: -moz-linear-gradient(top, #546A7F 0%, #5E768D 20%); /* firefox */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#546A7F), color-stop(20%,#5E768D)); /* webkit */
+		border-radius: 5px; -moz-border-radius: 5px; 
+		-webkit-border-radius: 5px; 
+		-moz-box-shadow: 0px 1px 0px #f2f2f2;
+		-webkit-box-shadow: 0px 1px 0px #f2f2f2;
+		padding: 10px;
+		margin-top:20px;color: #FFF;
+		}
+	.btn-coupon {margin-top: 10px; float: left; margin-left: 20px;
+		background-color:#0a848a;
+		-moz-border-radius:15px;
+		-webkit-border-radius:15px;
+		border-radius:15px;
+		border:2px solid #0eadb5;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:arial;
+		font-size:17px;
+		padding:14px 31px;
+		text-decoration:none;
+		text-shadow:0px 0px 0px #1e3b1a;
+		}
+	.btn-coupon-2 {margin:}
+	.btn-coupon:hover {background-color:#1aadb5;}
+	.btn-coupon:active {position:relative;top:1px;}
+	.btn-coupon.no-margin {margin-left: 0px;}
+
+
+ul.cupones{ margin:0 0 0 10px; padding:0; list-style:none;}
+ul.cupones li.color_500{ background:url(../img/naranja.jpg) no-repeat; width:170px; height:160px; margin-right:1%; text-align:center; padding-top:44px; font-size:12px; color:#FFF; list-style:none;}
+ul.cupones li.color_500:hover{ cursor:pointer;opacity:0.8; filter:alpha(opacity=80)}
+ul.cupones li.color_400{ background:url(../img/naranja.jpg) no-repeat; width:170px; height:160px; margin-right:1%; text-align:center; padding-top:44px; font-size:12px; color:#FFF; list-style:none;}
+ul.cupones li.color_400:hover{ cursor:pointer;opacity:0.8; filter:alpha(opacity=80)}
+ul.cupones li.color_300{ background:url(../img/violeta.jpg) no-repeat; width:170px; height:160px; margin-right:1%; text-align:center; padding-top:44px; font-size:12px; color:#FFF; list-style:none;}
+ul.cupones li.color_300:hover{ cursor:pointer;opacity:0.8; filter:alpha(opacity=80)}
+ul.cupones li.color_200{ background:url(../img/violeta.jpg) no-repeat; width:170px; height:160px; margin-right:1%; text-align:center; padding-top:44px; font-size:12px; color:#FFF; list-style:none;}
+ul.cupones li.color_200:hover{ cursor:pointer;opacity:0.8; filter:alpha(opacity=80)}
+ul.cupones li.color_100{ background:url(../img/verde.jpg) no-repeat; width:170px; height:160px; margin-right:1%;  text-align:center; padding-top:44px; font-size:12px; color:#FFF; list-style:none;}
+ul.cupones li.color_100:hover{ cursor:pointer;opacity:0.8; filter:alpha(opacity=80)}
+ul.cupones li.color_50{ background:url(../img/verde.jpg) no-repeat; width:170px; height:160px; margin-right:1%; text-align:center; padding-top:44px; font-size:12px; color:#FFF; list-style:none;}
+ul.cupones li.color_50:hover{ cursor:pointer;opacity:0.8; filter:alpha(opacity=80)}
+ul.cupones li.color_25{ background:url(../img/verde.jpg) no-repeat; width:170px; height:160px; margin-right:1%; text-align:center; padding-top:44px; font-size:12px; color:#FFF; list-style:none;}
+ul.cupones li.color_25:hover{ cursor:pointer;opacity:0.8; filter:alpha(opacity=80)}
+
+ul.cupones a:link, ul.cupones a:hover, ul.cupones a:visited{color: #FFF; text-decoration: none;}
+
+ul.cupones div.valor {font-size:30px; font-weight:bold;}
+ul.cupones div.print { margin-top:74px;} 
