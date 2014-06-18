@@ -1,1 +1,10 @@
 secret: xyLG85ePV8Zf15t8YcTv4kID
+client_url:
+    test.tarejtabeneficios.gointegro.com:
+        url:    "test.tarejtabeneficios.gointegro.com"
+        path_image_card_front: "http://test.tarejtabeneficios.gointegro.com/images/test.jpg"
+        path_image_card_back: "http://test.tarejtabeneficios.gointegro.com/images/test.jpg"
+    test2.tarejtabeneficios.gointegro.com:
+        url:   "test2.tarejtabeneficios.gointegro.com"
+        path_image_card_front:    "http://test.tarejtabeneficios.gointegro.com/images/test2.jpg"
+        path_image_card_back: "http://test.tarejtabeneficios.gointegro.com/images/test2.jpg"
