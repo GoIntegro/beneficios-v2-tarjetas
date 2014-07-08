@@ -1,30 +1,30 @@
 secret: xyLG85ePV8Zf15t8YcTv4kID
 client_url:    
-    test.tarejtabeneficios.gointegro.com:
-        url:    "test.tarejtabeneficios.gointegro.com"
-        path_image_card_front: "http://test.tarejtabeneficios.gointegro.com/images/test.jpg"
-        path_image_card_back: "http://test.tarejtabeneficios.gointegro.com/images/test.jpg"
-    test2.tarejtabeneficios.gointegro.com:
-        url:   "test2.tarejtabeneficios.gointegro.com"
-        path_image_card_front:    "http://test.tarejtabeneficios.gointegro.com/images/test2.jpg"
-        path_image_card_back: "http://test.tarejtabeneficios.gointegro.com/images/test2.jpg"
-    boavista.tarejtabeneficios.gointegro.com:
-        url:   "boavista.tarejtabeneficios.gointegro.com"
-        path_image_card_front:    "http://boavista.tarejtabeneficios.gointegro.com/images/boavista_f.jpg"
-        path_image_card_back: "http://boavista.tarejtabeneficios.gointegro.com/images/boavista_b.jpg"
-    incompany.tarejtabeneficios.gointegro.com:
-        url:   "incompany.tarejtabeneficios.gointegro.com"
-        path_image_card_front:    "http://incompany.tarejtabeneficios.gointegro.com/images/incompany_f.jpg"
-        path_image_card_back: "http://incompany.tarejtabeneficios.gointegro.com/images/incompany_b.jpg"
-    kc.tarejtabeneficios.gointegro.com:
-        url:   "kc.tarejtabeneficios.gointegro.com"
-        path_image_card_front:    "http://kc.tarejtabeneficios.gointegro.com/images/kc_f.jpg"
-        path_image_card_back: "http://kc.tarejtabeneficios.gointegro.com/images/kc_b.jpg"
-    pepsico.tarejtabeneficios.gointegro.com:
-        url:   "pepsico.tarejtabeneficios.gointegro.com"
-        path_image_card_front:    "http://pepsico.tarejtabeneficios.gointegro.com/images/pepsico_f.jpg"
-        path_image_card_back: "http://pepsico.tarejtabeneficios.gointegro.com/images/pepsico_b.jpg"
-    sanofi.tarejtabeneficios.gointegro.com:
-        url:   "sanofi.tarejtabeneficios.gointegro.com"
-        path_image_card_front:    "http://sanofi.tarejtabeneficios.gointegro.com/images/sanofi_f.jpg"
-        path_image_card_back: "http://sanofi.tarejtabeneficios.gointegro.com/images/sanofi_b.jpg"
+    test.tarjetabeneficios.gointegro.com:
+        url:    "test.tarjetabeneficios.gointegro.com"
+        path_image_card_front: "http://test.tarjetabeneficios.gointegro.com/images/test.jpg"
+        path_image_card_back: "http://test.tarjetabeneficios.gointegro.com/images/test.jpg"
+    test2.tarjetabeneficios.gointegro.com:
+        url:   "test2.tarjetabeneficios.gointegro.com"
+        path_image_card_front:    "http://test.tarjetabeneficios.gointegro.com/images/test2.jpg"
+        path_image_card_back: "http://test.tarjetabeneficios.gointegro.com/images/test2.jpg"
+    boavista.tarjetabeneficios.gointegro.com:
+        url:   "boavista.tarjetabeneficios.gointegro.com"
+        path_image_card_front:    "http://boavista.tarjetabeneficios.gointegro.com/images/boavista_f.jpg"
+        path_image_card_back: "http://boavista.tarjetabeneficios.gointegro.com/images/boavista_b.jpg"
+    incompany.tarjetabeneficios.gointegro.com:
+        url:   "incompany.tarjetabeneficios.gointegro.com"
+        path_image_card_front:    "http://incompany.tarjetabeneficios.gointegro.com/images/incompany_f.jpg"
+        path_image_card_back: "http://incompany.tarjetabeneficios.gointegro.com/images/incompany_b.jpg"
+    kc.tarjetabeneficios.gointegro.com:
+        url:   "kc.tarjetabeneficios.gointegro.com"
+        path_image_card_front:    "http://kc.tarjetabeneficios.gointegro.com/images/kc_f.jpg"
+        path_image_card_back: "http://kc.tarjetabeneficios.gointegro.com/images/kc_b.jpg"
+    pepsico.tarjetabeneficios.gointegro.com:
+        url:   "pepsico.tarjetabeneficios.gointegro.com"
+        path_image_card_front:    "http://pepsico.tarjetabeneficios.gointegro.com/images/pepsico_f.jpg"
+        path_image_card_back: "http://pepsico.tarjetabeneficios.gointegro.com/images/pepsico_b.jpg"
+    sanofi.tarjetabeneficios.gointegro.com:
+        url:   "sanofi.tarjetabeneficios.gointegro.com"
+        path_image_card_front:    "http://sanofi.tarjetabeneficios.gointegro.com/images/sanofi_f.jpg"
+        path_image_card_back: "http://sanofi.tarjetabeneficios.gointegro.com/images/sanofi_b.jpg"
