@@ -2,7 +2,7 @@
 <body>
 
 <style type="text/css">
-.tarjeta {
+/*.tarjeta {
 	width:500px; 
 	height:300px; 
 }
@@ -23,7 +23,7 @@
 	width: 400px;
 	height: 150px;
 }
-
+*/
 .space { padding:10px; display:block; }
 
 .content_print { padding:0 150px;}
@@ -32,12 +32,13 @@
 
 <div class="container">
 	<div class="top"><span class="titulo">Tarjeta de Beneficios</span></div>
-
-	<div style="height:55px; margin:0 auto; width:95%; color:#434343; font-size:14px; text-align: left"> <a href="javascript:window.print()"> Imprimí tu tarjeta de beneficios.</a> <br /> </div>
-
+	
 	<div class="content_print">
 
+		<div style="height:55px; margin:0 auto; width:95%; color:#434343; font-size:14px; text-align: left"> <a href="javascript:window.print()"> Imprimí tu tarjeta de beneficios.</a> <br /> </div>
+
 		<div class="tarjeta front">
+			<img src="{{pathImageCardFront}}">
 			<div class="label">
 				{{user.name}}  {{user.surname}}  {{user.document}}
 			</div>
@@ -45,7 +46,7 @@
 
 		<div class="space"></div>
 
-		<div class="tarjeta back"></div>
+		<div class="tarjeta back"><img src="{{pathImageCardBack}}"></div>
 
 	</div>
 
