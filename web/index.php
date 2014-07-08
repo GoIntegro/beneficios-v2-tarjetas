@@ -20,6 +20,8 @@ $app->get('/login/', function (Request $request) use ($app) {
 	if( $app['config']['client_url'][$client_url]['url'] == $client_url ) {
 
 		$encodeData = $request->query->get('data');
+		$encodeData = explode('?lang=', $encodeData); 
+		$encodeData = $encodeData[0]; 
 		$salt = $app['config']['secret'];
 
                 $decodeData = trim(mcrypt_decrypt(MCRYPT_RIJNDAEL_256, $salt, base64_decode($encodeData), MCRYPT_MODE_ECB, mcrypt_create_iv(mcrypt_get_iv_size(MCRYPT_RIJNDAEL_256, MCRYPT_MODE_ECB), MCRYPT_RAND)));
