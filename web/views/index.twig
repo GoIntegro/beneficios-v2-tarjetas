@@ -13,17 +13,27 @@
 .back {
 	background:url('{{pathImageCardBack}}')
 }
-
-.label {	
-	display: block;
-	margin: 0 auto;
-	padding: 250px 0 0;
-	text-align: center;
-	text-transform: uppercase;
-	width: 400px;
-	height: 150px;
-}
 */
+.content_print {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.tarjeta.front {
+    position: relative;
+}
+
+.label {
+    bottom: 34px;
+    display: block;    
+    left: 0;
+    margin: 0 auto;    
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    width: 500px;
+}
+
 .space { padding:10px; display:block; }
 
 .content_print { padding:0 150px;}
@@ -35,12 +45,12 @@
 	
 	<div class="content_print">
 
-		<div style="height:55px; margin:0 auto; width:95%; color:#434343; font-size:14px; text-align: left"> <a href="javascript:window.print()"> Imprimí tu tarjeta de beneficios.</a> <br /> </div>
+		<div style="height:55px; margin:0 auto; color:#434343; font-size:14px; text-align: left"> <a href="javascript:window.print()"> Imprimí tu tarjeta de beneficios.</a> <br /> </div>
 
 		<div class="tarjeta front">
 			<img src="{{pathImageCardFront}}">
 			<div class="label">
-				{{user.name}}  {{user.surname}}  {{user.document}}
+				{{user.name}}  {{user.surname}}  - {{user.document}}
 			</div>
 		</div>
 
