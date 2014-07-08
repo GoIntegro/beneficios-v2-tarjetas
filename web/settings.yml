@@ -1,5 +1,5 @@
 secret: xyLG85ePV8Zf15t8YcTv4kID
-client_url:
+client_url:    
     test.tarejtabeneficios.gointegro.com:
         url:    "test.tarejtabeneficios.gointegro.com"
         path_image_card_front: "http://test.tarejtabeneficios.gointegro.com/images/test.jpg"
@@ -16,15 +16,15 @@ client_url:
         url:   "incompany.tarejtabeneficios.gointegro.com"
         path_image_card_front:    "http://incompany.tarejtabeneficios.gointegro.com/images/incompany_f.jpg"
         path_image_card_back: "http://incompany.tarejtabeneficios.gointegro.com/images/incompany_b.jpg"
-	kc.tarejtabeneficios.gointegro.com:
+    kc.tarejtabeneficios.gointegro.com:
         url:   "kc.tarejtabeneficios.gointegro.com"
         path_image_card_front:    "http://kc.tarejtabeneficios.gointegro.com/images/kc_f.jpg"
         path_image_card_back: "http://kc.tarejtabeneficios.gointegro.com/images/kc_b.jpg"
-	pepsico.tarejtabeneficios.gointegro.com:
+    pepsico.tarejtabeneficios.gointegro.com:
         url:   "pepsico.tarejtabeneficios.gointegro.com"
         path_image_card_front:    "http://pepsico.tarejtabeneficios.gointegro.com/images/pepsico_f.jpg"
         path_image_card_back: "http://pepsico.tarejtabeneficios.gointegro.com/images/pepsico_b.jpg"
-	sanofi.tarejtabeneficios.gointegro.com:
+    sanofi.tarejtabeneficios.gointegro.com:
         url:   "sanofi.tarejtabeneficios.gointegro.com"
         path_image_card_front:    "http://sanofi.tarejtabeneficios.gointegro.com/images/sanofi_f.jpg"
         path_image_card_back: "http://sanofi.tarejtabeneficios.gointegro.com/images/sanofi_b.jpg"

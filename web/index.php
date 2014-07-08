@@ -1,12 +1,10 @@
 <?php
-
-
 require_once __DIR__.'/../vendor/autoload.php';
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-$app['debug'] = false;
+$app['debug'] = true;
 
 $app = new Silex\Application();
 $app->register(new DerAlex\Silex\YamlConfigServiceProvider(__DIR__ . '/settings.yml'));
